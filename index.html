@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulaire Javascript</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Formulaire d'inscription</h1>
+<div class="main">
+
+   <form name="inscription" method="POST">
+      <input type="text" name="pseudo" placeholder="Pseudo" ><br>
+      <input type="email" name="email" placeholder="Email" id="email"><br>
+      <input type="email" name="email-confirmation" placeholder="Confirmer votre mail" id="mailConfirm"><br>
+      <input type="password" name="mdp" placeholder="mot de passe" id="password"><br>
+      <input type="password" name="mdp-confirmation" placeholder="entrez de nouveau le mot de passe" id="passwordConfirm"><br>
+      <input type="submit" value="inscription" ><br>
+   </form>
+
+   <p style="color : red" id="erreur"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+    
